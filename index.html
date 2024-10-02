@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Perfect</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="image/icon.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+</head>
+<body>
+    <div class="container">
+        <a href="https://tusharjustdoit.netlify.app/" ><i class="fa-brands fa-github"></i></a>
+        <div class="triangle-right">
+        </div>
+        <h1 id="heading">Plan today, succeed tomorrow.</h1>
+        <div class="todo-app">
+            <div class="row form">
+                <input type="text" name="" id="input-box" placeholder="Add your Text" class="textbox">
+                <button onclick="addTask()" class="addbutton">Add Task</button>
+            </div>
+            <ul id="list-container">
+            </ul>
+        </div>
+    </div>
+    <div class="row commonbutton">
+        <div class="col">
+            <input type="button" id="btn1" class="buttoncommonclass" onclick="change1()"/>
+        </div>
+        <div class="col">
+            <input type="button" id="btn2" class="buttoncommonclass" onclick="change2()"/>
+        </div>        
+        <div class="col">
+            <input type="button" id="btn3" class="buttoncommonclass" onclick="change3()"/>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

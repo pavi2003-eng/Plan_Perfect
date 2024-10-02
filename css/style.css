@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#heading
+{
+    text-align: center;
+    margin-top: 20px;
+    color: #0000009c;
+}
+.commonbutton
+{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.form
+{
+    margin: 100px auto;
+    width: 100%;
+    max-width: 368px;
+    background: #ffffff9c;
+    border-radius: 4px;
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    height: 190px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.textbox
+{
+    height: 50px;
+    margin: 30px;
+    background: #00000008;
+    width: 303px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding-left: 6px;
+}
+.addbutton
+{
+    height: 50px;
+    background: #00000008;
+    width: 100px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-left: 134px;
+    margin-right: 134px;
+}
+#list-container
+{
+    margin: 100px auto;
+    width: 100%;
+    max-width: 318px;
+    background: #ffffff9c;
+    border-radius: 4px;
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    height: auto;
+    padding-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.buttoncommonclass
+{
+    height: 40px;
+    width: 40px;
+    border: 1px solid;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+#btn1
+{
+    background: linear-gradient(90deg, #D8B5FF 0% , #1EAE98 70%);
+
+}
+#btn2
+{
+    background:linear-gradient(90deg, #2E3192 0% , #1BFFFF 70% );
+}
+#btn3
+{
+    background: linear-gradient(90deg, #380036 0%, #0CBABA 70%);
+}
+#btn1:hover
+{
+    box-shadow: white 0 0 8px;
+    cursor: pointer;
+}
+#btn2:hover
+{
+    box-shadow: white 0 0 8px;
+    cursor: pointer;
+}
+#btn3:hover
+{
+    box-shadow: white 0 0 8px;
+    cursor: pointer;
+}
+body
+{
+    background: linear-gradient(90deg, #D8B5FF 0% , #1EAE98 70%);
+}
+.span
+{
+    background: rgba(255, 255, 255, 0.37); padding: 6px; height: 20px; width: 20px;  position: relative;     margin-left: 10px; text-align: center; padding-bottom: 0;
+}
+.list
+{
+    padding-top:10px; padding-bottom:15px;
+}
+@media screen and (min-width:300px) and (max-width:700px)
+{
+    .buttoncommonclass
+{
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+    
+}
+@media screen and (min-width:0px) and (max-width:299px)
+{
+    .buttoncommonclass
+{
+    margin-right: 0px;
+}
+    
+}
+.triangle-right {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 0 solid transparent;
+    border-bottom: 70px solid transparent;
+    border-left: 70px solid #000000f2;
+    top: 0;
+    z-index: -1;
+  }
+  .fa-github
+  {
+    color: white;
+    font-size: 40px;
+    transform: rotate(315deg);
+  }
+  
