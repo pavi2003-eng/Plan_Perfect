@@ -14,7 +14,7 @@ function addTask()
         listContainer.appendChild(task)
         const div = document.createElement('div')
         let span = document.createElement('span')
-        span.className = 'fa-regular fa-trash-can span';
+        span.textContent = "Delete"
         task.appendChild(span)
     }
     inputBox.value = '';
